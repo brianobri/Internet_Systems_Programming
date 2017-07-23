@@ -1,0 +1,49 @@
+<HTML>
+<head>
+<!--Page title of ‘Term Project’-->
+<title>Term Project</title>
+</head>
+<!--your name in a span tag with an id of name-->
+<span id = name>Brian O'Briskie</span>
+<!--the time and date it is finished in a paragraph tag with an id of date-->
+<p id = date>12:00 11/22/2016</P>
+<!--h1 tag with the content of ‘Term Project’, id of assignment-->
+<h1 id = assignment>Term Project</h1>
+<!--h2 tag with the content of ‘Internet Systems Programming’, id of class-title-->
+<h2 id = class-title>Internet Systems Programming</h2>
+
+<!--You must have a button that takes you to a listing of the users, id of user-list-->
+<form method="POST" onSubmit=window.location='userlisting.html' action="userlisting.html" >
+<input type="submit" value="user listings page" /></input>
+</form>
+<br>
+
+<form>
+<!--The user data that you will need to enter is: (if not denoted, then use input type of text)-->
+<!--User ID (name=”userid”)-->
+<input type = "text" name=”userid”>User ID<br>
+<!--First Name (name=”fname”)-->
+<input type = "text" name=”fname”>First Name<br>
+<!--Last Name (name = “lname”)-->
+<input type = "text" name = “lname”>Last Name<br>
+<!--Email (name=”email”)-->
+<input type = "text" name=”email”>Email<br>
+<!--Phone (name=”phone”)-->
+<input type = "text" name=”phone”>Phone <br>
+<!--Street (name=”street”)-->
+<input type = "text" name=”street”>Street<br>
+<!--City (name=”city”)-->
+<input type = "text" name=”city”>City<br>
+<!--State (name=”state”)-->
+<input type = "text" name=”state”>State<br>
+<!--Zip (name=”zip”)-->
+<input type = "text" name=”zip”>Zip<br>
+<!--Date Added (name=”add-date”)-->
+<input type = "text" name=”add-date”>Date Added<br>
+<!--Male/Female (name=”sex”, input type radio button)-->
+<input type="radio" name="sex" value="male">Male<br>
+<input type="radio" name="sex" value="female">Female
+
+<input type="submit" value="submit" /></input>
+</form>
+</HTML>

@@ -1,0 +1,31 @@
+<html>
+<!--The ‘Add New User’ and ‘Edit User’ forms must have validation rules as follows:-->
+<!--User ID is present-->
+<!--First name and last name must have the first letter as capital-->
+<!--Email address is present and of the proper form (asdf@asdf.abc)-->
+<!--Phone is present and of the proper form (123-123-1234)-->
+<!--Street must be present-->
+<!--City must have the first letter capitalized-->
+<!--State must be 2 character state, capitalized, validate that it is a real state-->
+<!--Zip must be only digits, limited to 6 digits-->
+<!--Date Added is present and of the proper form (01/01/1971), manual entry of date-->
+<!--Validation is done when the user clicks on a Submit button and by the change/blur event. If an error is found, the input field that contains the invalid value(s) will change the border of the input field to color ‘red’.  The auto grader will look for the border color with the keyword of ‘red’.  If anything else is used, this will be marked incorrect, so please follow directions.-->
+
+
+<!--The ‘Add New User’ and ‘Edit User’ forms:-->
+<head>
+<title>Add or edit user</title>
+</head>
+<!--Must have a Title on the top of the page:-->
+<!--Id of page-title-->
+<body>
+<h1 id = "page-title">Add or edit user</h1>
+
+<!--‘Add New User’ or ‘Edit User’ based on what mode you are in-->
+<!--Must have a submit button, input type ‘submit’ and clear button, input type ‘reset’-->
+<!--On submission an HTTP POST will be sent to the server with either the command to update or insert a new record based on what mode your are in.-->
+<!--Go back to the ‘User Listing’ page after successful submission of the data-->
+<!--Gracefully handle errors from the server-->
+<!--On error of the HTTP POST, show the user an error message.-->
+</body>
+</html>

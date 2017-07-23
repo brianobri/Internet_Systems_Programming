@@ -1,0 +1,8 @@
+#name{font-name:Cursive; font-size:20px text-decoration: bold; color:white;}
+#date{font-name:Arial; font-size:20px; text-decoration: bold; color:white;}
+#assignment{font-size:35px;font-variant:small; text-align:center; color:white; text-decoration:underline;}
+#class-title{font-variant:normal;text-align:center;font-weight: bold; color:white; text-decoration:underline;}
+#u-list{color:#576D94; list-style-type: square; background-color:yellow;}
+#o-list{color:#576D94; list-style-type: upper-roman; background-color:orange;}
+#table{border: 1px solid black; margin-left: 50px; background-color:red; margin-left:auto; margin-right:auto }
+#row{font-family:Verdana; text-decoration: normal; background-color:green;}

@@ -1,0 +1,73 @@
+<!doctype html>
+<!--  -->
+<!--Create a new web page that contains a form. -->
+<!--Your page should contain the following: (5 points)-->
+<!--Page title of ‘Assignment 3’-->
+ <head>
+    <title>Assignment 3</title>
+    <meta charset = "utf-8" />
+    <script type = "text/javascript"  src = "jshw.js" >
+    </script>
+  </head>
+
+<body>
+<!--your name in a span tag with an id of name-->
+<span id = "name">Brian O'Briskie</span>
+<!--the time and date it is finished in a paragraph tag with an id of date-->
+<p id = "date">Time Finished:10:34, Date Finished: 10/9/2015 </p>
+<!--h1 tag with the content of ‘Assignment 3’, id of assignment-->
+<h1 id = "assignment">Assignment 3</h1>
+<!-- h2 tag with the content of ‘Internet Systems Programming’, id of class-title-->
+<h2 id = "class-title">Internet Systems Programming</h2>
+
+
+<!--The form will contain the following fields along with appropriate labels, for user input: (8 points)  -->
+<form id = "myForm" action = "" onsubmit = "chkeverything();">
+<!--Name (see section 4.13, p. 184 in the book)  (type=”text”, name=”name”)  -->
+<lable>Name:<input type = "text"  name = "name" Id = "myname" onblur ="chkname(true);" size = "40" /></lable>
+<br>
+<!--Password (type=”text” name =”password”)  -->
+<lable>Password:<input type = "text"  name = "password" Id = "mypass" onblur ="chkpassword(true);" size = "40" /></lable>
+<br>
+<!--e-mail address (type=”text”, name=”email”)  -->
+<lable>e-mail address:<input type = "text"  name = "email" Id = "myemail" onblur ="chkemail(true);" size = "40" /></lable>
+<br>
+<!--phone (type=”text”, name=”phone”)-->
+<lable>phone:<input type = "text"  name = "phone" Id = "myphone" onblur ="chkphone(true);" size = "40" /></lable>
+<br>
+<!--address (type=”text”, name=”address”)  -->
+<lable>address:<input type = "text"  name = "address" Id = "myaddress" onblur ="chkaddress(true);" size = "40" /></lable>
+<br>
+<!--date (type=”text”, name=”date”)-->
+<lable>date:<input type = "text"  name = "date" Id = "mydate" onblur ="chkdate(true);" size = "40" /></lable>
+<br>
+<!--time (type=”text”, name=”time”)-->
+<lable>time:<input type = "text"  name = "time" Id = "mytime" onblur ="chktime(true);" size = "40" /></lable>
+<br>
+<!--any numeric field (type=”text”, name=”numeric”)-->
+<lable>any numeric field:<input type = "text"  name = "numeric" Id = "mynumeric" onblur ="chknumeric(true);" size = "40" /></lable>
+<br>
+
+
+<p><input type = "submit" value = "Submit Form"  />
+</P>
+</form>
+
+
+
+<!--Validate the following fields of your page/form before sending off the content to a server: (8 points)  -->
+<!--Name is present and is of the form (capital first letter, first name, capital first letter of last name, last name, Ex: George Smith)-->
+<!--Password is present and at least 8 characters including at least one number-->
+<!--e-mail address is present and of the proper form (asdf@asdf.abc)  -->
+<!--phone is present and of the proper form (123-123-1234)-->
+<!--address is present -->
+<!--date is present and of the proper form (01/01/1971, should show the current date)-->
+<!--time is present and of the proper form (10:00 am)  -->
+<!--numeric field is numeric, no alpha characters  -->
+
+<!--Use functions, pattern matching and event handling in your scripts. Validation is done when the user clicks on a Validate button and by the blur event. (validation on submit click event and when leaving a field, 2  points)  -->
+<!--If an error is found, then an alert message is produced and the input field that contains the invalid value(s) will change the border of the input field to color ‘red’.  The auto grader will look for the border color with the keyword of ‘red’.  If anything else is used, this will be marked incorrect, so please follow directions.  On the Validate button click show the alert.  It is not necessary to show the alert on the change event.  Be sure that only one alert message is shown with all of the validation errors.  Should not contain multiple alert messages. One and only 1 alert message on form validation errors. (2 points)   -->
+
+
+</body>
+</html>

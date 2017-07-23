@@ -1,0 +1,35 @@
+<HTML>
+<head>
+<!--Page title of ‘Term Project’-->
+<title>Term Project</title>
+</head>
+<!--your name in a span tag with an id of name-->
+<span id = name>Brian O'Briskie</span>
+<!--the time and date it is finished in a paragraph tag with an id of date-->
+<p id = date>12:00 11/22/2016</P>
+<!--h1 tag with the content of ‘Term Project’, id of assignment-->
+<h1 id = assignment>Term Project</h1>
+<!--h2 tag with the content of ‘Internet Systems Programming’, id of class-title-->
+<h2 id = class-title>Internet Systems Programming</h2>
+
+<!--You must have a button that takes you to a listing of the users, id of user-list-->
+<form method="POST" onSubmit=" location.href = 'userlisting.html' >
+<input type="button" value="Submit">redirecting</input>
+</form>
+
+
+<form>
+<!--The user data that you will need to enter is: (if not denoted, then use input type of text)-->
+<!--User ID (name=”userid”)-->
+<!--First Name (name=”fname”)-->
+<!--Last Name (name = “lname”)-->
+<!--Email (name=”email”)-->
+<!--Phone (name=”phone”)-->
+<!--Street (name=”street”)-->
+<!--City (name=”city”)-->
+<!--State (name=”state”)-->
+<!--Zip (name=”zip”)-->
+<!--Date Added (name=”add-date”)-->
+<!--Male/Female (name=”sex”, input type radio button)-->
+</form>
+</HTML>
